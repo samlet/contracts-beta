@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 
 // Make Box inherit from the Ownable contract
-contract Box is Ownable {
+contract Box_v1 is Ownable {
     uint256 private value;
 
     event ValueChanged(uint256 newValue);

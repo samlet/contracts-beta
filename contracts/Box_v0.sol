@@ -6,7 +6,7 @@ pragma solidity ^0.6.0;
 import "./access-control/Auth.sol";
 
 
-contract Box {
+contract Box_v0 {
     uint256 private value;
     Auth private auth;
 
