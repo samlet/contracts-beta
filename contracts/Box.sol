@@ -18,6 +18,12 @@ contract Box {
     function retrieve() public view returns (uint256) {
         return value;
     }
+
+    // Increments the stored value by 1
+    function increment() public {
+        value = value + 1;
+        emit ValueChanged(value);
+    }
 }
 
 
