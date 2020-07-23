@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "oz compile",
     "test": "oz compile && mocha --exit --recursive test"
   },
   "author": "",
