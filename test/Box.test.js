@@ -8,7 +8,7 @@ const { expect } = require('chai');
 const Box = contract.fromArtifact('Box');
 
 // Start test block
-describe('Box_v1', function () {
+describe('Box', function () {
     const [ owner ] = accounts;
 
     beforeEach(async function () {

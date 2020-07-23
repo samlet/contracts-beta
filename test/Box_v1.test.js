@@ -9,7 +9,7 @@ const { BN, expectEvent, expectRevert } = require('@openzeppelin/test-helpers');
 // const Box = contract.fromArtifact('Box');
 const Box = contract.fromArtifact('Box_v1');
 
-describe('Box', function () {
+describe('Box_v1', function () {
     const [ owner, other ] = accounts;
 
     // Use large integers ('big numbers')
