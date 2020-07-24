@@ -20,6 +20,7 @@ describe('Box', function () {
     it('retrieve returns a value previously stored', async function () {
         // Store a value - recall that only the owner account can do this!
         await this.contract.store(42, { from: owner });
+        console.log('... result is '+(await this.contract.retrieve()).toString());
 
         // Test if the returned value is the same one
         // Note that we need to use strings to compare the 256 bit integers
