@@ -23,3 +23,4 @@ describe('SimpleStorage', function () {
         expect((await this.contract.get()).toString()).to.equal('42');
     });
 });
+

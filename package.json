@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "eth": "ganache-cli --deterministic",
     "build": "oz compile",
     "test": "oz compile && mocha --exit --recursive test"
   },
